@@ -21,6 +21,7 @@
  
         router
           .on("/about", () => {
+            document.title = 'About'
             document.querySelector("#content").innerHTML = "about";
           })
           .on("/links", () => {
